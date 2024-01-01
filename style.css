@@ -393,9 +393,13 @@ body
 {
   color: #555555;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
+.how-h3
+{
+  font-size: 2rem;
+}
 
 /* HOW GRID SETUP */
 
