@@ -26,17 +26,12 @@ body {
   background: #FFFFFF;
 }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  margin-top: 2.25rem;
-  margin-bottom: 1rem;
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: -0.022em;
 }
-p {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
+
 small {
   font-size: var(--text-size-90);
 }
@@ -87,6 +82,13 @@ h1, .h1 {
 
 
 /* DEFAULT ITEMS */
+
+body
+{
+  color: #333333;
+  font-family: 'Rubik', sans-serif;
+}
+
 section
 {
   padding: 2.5rem;
@@ -259,7 +261,7 @@ body
   display: grid;
   grid-template-columns: repeat(2,auto);
   grid-template-rows: repeat(4,auto);
-  row-gap: 1rem;
+  row-gap: 2.5rem;
   column-gap: 19rem;
   justify-content: center;
   max-width:100%;
@@ -332,7 +334,7 @@ body
 
 .sponsor
 {
-  padding-top: 0;
+  padding-top: 4rem;
 }
 
 
@@ -340,8 +342,8 @@ body
 
 .how
 {
-  padding-top: 6rem;
   margin: auto 19.1rem;
+  margin-top: 9rem;
 }
 
 
@@ -366,4 +368,74 @@ body
 {
   margin-top:0 ;
   text-align: left;
+  font-size: 2.8rem;
+}
+
+.how-number
+{
+  font-weight: 500;
+  font-size: 5.5rem;
+  color: #DDDDDD;
+}
+
+.how-img
+{
+  max-width: 12rem;
+  height: auto;
+}
+
+.how-text-container
+{
+  max-width: 33rem;
+}
+
+.how-text
+{
+  color: #555555;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+
+/* HOW GRID SETUP */
+
+.how-grid
+{
+  display: grid;
+  grid-template-columns: repeat(1,auto);
+  grid-template-rows: repeat(3,auto);
+  margin-top: 6rem;
+}
+
+.how-item1
+{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 18rem;
+}
+
+.how-item2
+{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  margin-top: 10rem;
+  gap: 18rem;
+}
+
+.how-item3
+{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10rem;
+  gap: 18rem;
 }
