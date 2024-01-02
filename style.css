@@ -362,13 +362,11 @@ body
   font-size: 1rem;
   font-weight: 500;
   margin-top: 0;
-  text-align: left;
 }
 
 .how-title h1
 {
   margin-top:0 ;
-  text-align: left;
   font-size: 2.8rem;
 }
 
@@ -448,7 +446,9 @@ body
 /* MEALS SECTION */
 .meals
 {
-  margin: 100px 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 .meals-title
@@ -546,20 +546,32 @@ body
 .meals-card-info
 {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
   flex-direction: column;
-  text-align: left;
-  padding: 1rem 5rem;
+  justify-content: flex-start;
+  padding: 0rem 5rem;
 }
 
-.meals-card-info p
+.meals-card-info ul
+{
+  list-style-type: none;
+}
+
+.meals-card-info li
 {
   margin-top: 0.7rem;
   font-weight: 400;
 }
 
-.check-icon
+.meals-recipes
+{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin-right: 19rem;
+  margin-bottom: 5rem;
+}
+
+.icon
 {
   max-width: 24px;
   max-height: 24px;
@@ -620,3 +632,112 @@ body
   justify-self: start;
   align-self: start;
 }
+
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-title h1
+{
+  margin-top: 0;
+  text-align: left;
+  font-size: 2.8rem;
+}
+
+.testimonial-title p
+{
+  text-transform: uppercase;
+  color: #CF711F;
+}
+
+.gallery-item
+{
+  max-width: 13rem;
+}
+
+.gallery-item
+{
+  transition: all 1s ease;
+}
+
+.gallery-item:hover
+{
+  transform: scale(1.1);
+}
+
+.testimonial-image
+{
+  max-width: 4rem;
+  border-radius: 50%;
+}
+
+.testimonial-content
+{
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
+.testimonial-content p
+{
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+
+
+/* TESTIMONIAL GRID SETUP */
+.testimonials
+{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-row: auto;
+  background-color: #FDF2E9;
+}
+.testimonial-title
+{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.gallery
+{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-self: center;
+  align-self: end;
+  margin-left: 3rem;
+}
+
+.gallery
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(4,1fr);
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.testimonial-container
+{
+  margin: 10rem 0;
+}
+.testimonial-grid
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  column-gap: 3rem;
+  row-gap: 3rem;
+  margin-top: 5rem;
+}
+
+.content--1, .content--2
+{
+  grid-row: 1/2;
+}
+
+.content--3, .content--4
+{
+  grid-row: 2/3;
+}
+
