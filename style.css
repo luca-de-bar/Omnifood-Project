@@ -775,7 +775,7 @@ body
   border-radius: 5px;
   padding: 70px;
   padding-top: 40px;
-  border: 3px dotted rgba(230, 125, 34, 0.548);
+  border: 2px dotted rgba(230, 125, 34, 0.548);
 }
 
 .pricing-card ul
@@ -815,5 +815,43 @@ body
 .btn--pricing
 {
   margin-top: 2.5rem;
+  transform: translate(25%);
 }
 
+.pricing-card--2
+{
+  background-color: #FDF2E9;
+}
+
+.pricing-info
+{
+  text-align: center;
+  margin-top: 6rem;
+  font-weight: 400;
+}
+
+.icon--rounded
+{
+  background-color: #FDF2E9;
+  max-width: 3rem;
+  max-height: 3rem;
+  border-radius: 110%;
+  padding: 0.5rem;
+  margin: 2rem 0;
+  margin-top: 5rem;
+}
+
+.pack-contain-p
+{
+  max-width: 18rem;
+  margin-top: 1.4rem;
+  font-weight: 400;
+}
+
+.pack-flex-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
