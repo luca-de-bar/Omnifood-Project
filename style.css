@@ -193,6 +193,14 @@ a:hover {
 
 .navbar {
   background-color: #fdf2e9;
+  position: sticky;
+  top: 0;
+  transition: all 0.3s ease;
+}
+.navbar.scrolled {
+  background-color: #fff; /* Nuovo colore di sfondo quando si scorre */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.055); /* Ombra leggera per un effetto rialzato */
+  /* Altri stili quando si scorre */
 }
 
 .hero {
