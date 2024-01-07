@@ -6,7 +6,9 @@
 
 html {
   font-size: 100%;
+  max-width: 100%;
 }
+
 body {
   --text-size-80: 0.694rem;
   --text-size-90: 0.833rem;
@@ -926,3 +928,6 @@ footer h6
 {
   justify-self: flex-end;
 }
+
+
+/* MEDIA */
