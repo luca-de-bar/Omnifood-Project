@@ -1,0 +1,72 @@
+/* Smartphone Piccoli (max-width: 320px) */
+@media screen and (max-width: 20em) { /* 320px */
+  /* Stili per smartphone piccoli */
+}
+
+/* Smartphone Medi (max-width: 480px) */
+@media screen and (max-width: 30em) { /* 480px */
+  /* Stili per smartphone medi */
+}
+
+/* Tablet (Verticale e Orizzontale) (min-width: 481px, max-width: 768px) */
+@media screen and (min-width: 30.0625em) and (max-width: 48em) { /* min 481px, max 768px */
+  /* Stili per tablet */
+}
+
+/* Desktop Piccoli e Tablet Grandi (min-width: 769px, max-width: 925px) */
+@media screen and (min-width: 48.0625em) and (max-width: 57.8125em) { /* min 769px, max 925px */
+  /* Stili per desktop piccoli e tablet grandi */
+    .logo img
+    {
+    max-width: 100%;
+    height: 1.2rem;
+    }
+
+    .menu-item
+    {
+    padding-right: 0.9rem;
+    font-size: 0.9rem;
+    }
+
+    .btn--orange
+    {
+    padding: 0.9rem;
+    }
+
+    .hero-grid
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+        padding: 0.8rem;
+    }
+
+    .hero-image
+    {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .hero-text-box
+    {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+}
+
+/* Desktop Medi (min-width: 926px, max-width: 1200px) */
+@media screen and (min-width: 57.875em) and (max-width: 75em) { /* min 926px, max 1200px */
+  /* Stili per desktop medi */
+}
+
+/* Desktop Grandi (min-width: 1201px) */
+@media screen and (min-width: 75.0625em) { /* 1201px */
+  /* Stili per desktop grandi */
+}
+
+
+
+
+
+
+

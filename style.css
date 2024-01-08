@@ -200,9 +200,10 @@ a:hover {
   transition: all 0.3s ease;
 }
 .navbar.scrolled {
-  background-color: #fff; /* Nuovo colore di sfondo quando si scorre */
+  background-color: rgb(255, 255, 255); /* Nuovo colore di sfondo quando si scorre */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.055); /* Ombra leggera per un effetto rialzato */
   /* Altri stili quando si scorre */
+  z-index: 999999;
 }
 
 .hero {
