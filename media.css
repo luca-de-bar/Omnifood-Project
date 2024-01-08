@@ -36,22 +36,62 @@
     .hero-grid
     {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2,1fr);
+        grid-template-rows: repeat(2,auto);
         padding: 0.8rem;
+        justify-content: center;
     }
 
     .hero-image
     {
         grid-row: 2/3;
         grid-column: 1/2;
+        max-height: 22rem;
+        justify-self: center;
     }
 
     .hero-text-box
     {
         grid-row: 1/2;
         grid-column: 1/2;
+        max-width: 100%;
+        justify-self: center;
     }
 
+    .hero-title h1
+    {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      justify-self: center;
+    }
+
+    .hero-paragraph
+    {
+      font-size: 1.2rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .hero-buttons
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .hero
+    {
+      padding: 1.5rem;
+    }
+
+    .menu-list
+    {
+      display: none;
+    }
+
+    .hamburger-menu
+    {
+      display: block;
+    }
 }
 
 /* Desktop Medi (min-width: 926px, max-width: 1200px) */
