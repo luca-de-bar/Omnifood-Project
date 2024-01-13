@@ -9,10 +9,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-
 document.querySelector('.hamburger').addEventListener('click', function() {
-    document.querySelector('.menu-list').classList.toggle('show');
+    document.querySelector('.menu').classList.toggle('open');
   });
-  
-
   

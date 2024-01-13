@@ -223,15 +223,6 @@ body {
   justify-content: space-between;
 }
 
-.hamburger-menu
-{
-  display: none;
-}
-
-.menu-list.show {
-  display: block;
-}
-
 .menu-list {
   list-style-type: none;
   display: flex;
